@@ -22,9 +22,9 @@
     "@clerk/clerk-sdk-node": "4.8.7"
   },
   "devDependencies": {
-    "@babel/core": "7.21.8",
-    "@babel/preset-env": "7.21.5",
-    "@babel/preset-typescript": "7.21.5",
+    "@babel/core": "7.26.0",
+    "@babel/preset-env": "7.26.0",
+    "@babel/preset-typescript": "7.26.0",
     "@redwoodjs/api": "5.0.6",
     "@types/aws-lambda": "8.10.115",
     "@types/node": "20.1.0",
