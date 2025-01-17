@@ -2359,7 +2359,7 @@ __metadata:
     "@clerk/clerk-sdk-node": 4.8.7
     "@redwoodjs/api": 5.0.6
     "@types/aws-lambda": 8.10.115
-    "@types/node": 20.1.0
+    "@types/node": 20.17.14
     babel-jest: 29.5.0
     esbuild: 0.17.18
     jest: 29.5.0
@@ -2864,7 +2864,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.1.0":
+"@types/node@npm:*":
   version: 20.1.0
   resolution: "@types/node@npm:20.1.0"
   checksum: c6d9afa9aa78b4b4348c69ece94975be70346b144c278f1395694a10ef919d7db300018101b6f9245e6bdd76674a5327d2d14829092f3d5295e858cff5f22a66
@@ -2875,6 +2875,15 @@ __metadata:
   version: 16.18.6
   resolution: "@types/node@npm:16.18.6"
   checksum: 85b6a11c347e1edfe014eb2c520aec37117152c932b632f455d4e2a71a311fb25578602c7c25f825c6f1c3e4a912506857c1aa679717318296f5590ac0d33254
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.17.14":
+  version: 20.17.14
+  resolution: "@types/node@npm:20.17.14"
+  dependencies:
+    undici-types: ~6.19.2
+  checksum: a5a775f57271e5a73c9e1afc4f6ea0d24cb9b4856e3d7d1788ff9ba0cc3e3a90e7883383f183f193a36eed0c758809df626a9ad653458a06d4fc82644d89b6e0
   languageName: node
   linkType: hard
 
@@ -9178,6 +9187,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: d26b6ba97b6d163c55dbdffd9bbb4c211667ebebc743accfeb2c8c0154aace7afd097b51165a72a5bad2cf65a4612259344ff60f8e642362aa1695c760d303ac
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.19.2":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: de51f1b447d22571cf155dfe14ff6d12c5bdaec237c765085b439c38ca8518fc360e88c70f99469162bf2e14188a7b0bcb06e1ed2dc031042b984b0bb9544017
   languageName: node
   linkType: hard
 
